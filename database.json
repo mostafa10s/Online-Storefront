@@ -1,0 +1,19 @@
+{
+  "defulltEnv": { "ENV": "Node_Env" },
+  "dev": {
+    "driver": "pg",
+    "user": { "ENV": "Postgres_user" },
+    "password": { "ENV": "Postgres_password" },
+    "host": { "ENV": "Postgres_host" },
+    "database": { "ENV": "Postgres_database" },
+    "port": { "ENV": "Postgres_Port" }
+  },
+  "test": {
+    "driver": "pg",
+    "user": { "ENV": "Postgres_user" },
+    "password": { "ENV": "Postgres_password" },
+    "host": { "ENV": "Postgres_host" },
+    "database": { "ENV": "Postgres_test_database" },
+    "port": { "ENV": "Postgres_Port" }
+  }
+}
